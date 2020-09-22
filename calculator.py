@@ -3,7 +3,6 @@ from tkinter import *
 root = Tk()
 
 root.title("Calculator")
-root.iconbitmap('C:/Users/Mirjana/Codes/Learn/TkPass/calculator1.ico')
 
 entry = Entry(root, width=45, borderwidth=5)
 entry.grid(row=0, column=0, columnspan=3, padx=10, pady=10)
